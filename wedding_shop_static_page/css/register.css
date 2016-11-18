@@ -1,0 +1,81 @@
+.register{
+	height: 680px;
+}
+.register .container>p{
+	width: 100%;
+	height: 30px;
+	background: #F5F5F5;
+	padding: 10px 0 0 15px;
+	border-radius: 6px;
+	color: #A6A4A3;
+	font-weight: bold;
+}
+.register .container>p a{
+	color: black;
+	font-weight: bold;
+}
+.register .container h2{
+	margin: 50px 0 30px 0;
+	font-weight: bold;
+	font-size: 33px;
+	/*text-align: center;*/
+}
+.register .container h2 span{
+	color: #777777;
+}
+.register .container .registerleft{
+	width: 45%;
+	float: left;
+	margin-right: 104px;
+
+}
+.register .container input{
+	width: 100%;
+	height: 30px;
+	padding: 5px 5px 5px 10px;
+	margin: 7px 0;
+	border-color:1px solid #F5F5F5;
+}
+.register .container .registerleft #male,.register .container .registerleft #female,.register .container .registerleft #agree{
+	width: auto;
+	height: auto;
+	margin: 20px 8px 10px 0;
+	padding: 0;
+}
+.register .container .registerleft>form>span{
+	color: #A6A4A3;
+}
+.register .container .registerleft form input:nth-child(16){
+	background: #00A0DC;
+	width: auto;
+	height: auto;
+	color: white;
+	border: 0;
+	padding: 8px 15px;
+}
+.register .container .registerleft a{
+	text-decoration: underline;
+	color: #A6A4A3;
+}
+
+
+.register .container .signright{
+	width: 45%;
+	float: left;
+}
+.register .container .signright input:nth-child(5){
+	background: #00A0DC;
+	width: auto;
+	height: auto;
+	color: white;
+	border: 0;
+	padding: 8px 15px;
+}
+
+.register .container .signright a{
+	text-decoration: underline;
+	color: #A6A4A3;
+	margin-top: 14px;
+	font-size: 14px;
+	display: inline-block;
+}

@@ -1,0 +1,409 @@
+.detail{
+	height: 1800px;
+}
+.detail .container>p{
+	width: 100%;
+	height: 30px;
+	background: #F5F5F5;
+	padding: 10px 0 0 15px;
+	border-radius: 6px;
+	color: #A6A4A3;
+	font-weight: bold;
+}
+.detail .container>p a{
+	color: black;
+	font-weight: bold;
+}
+.detail .container .detailleft{
+	width: 70%;
+	float: left;
+	margin-top: 100px;
+	/*border: 1px solid red;*/
+}
+.detail .container .detailleft .xiangxitu{
+	height: 450px;
+	width:350px;
+	float: left;
+}
+.detail .container .detailleft .xiangxitu div{
+	width: 73px;
+	/*height: 80px;*/
+	/*font-size: 16px;*/
+	margin: 0 8px 5px 0;
+	float: left;
+}
+.detail .container .detailleft .xiangxitu div img{
+	max-width: 90%;
+	max-height: 90%;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+.detail .container .detailleft .xiangxitu div:first-child{
+	width: 280px;
+	height: 310px;
+	/*font-size: 16px;*/
+	margin-bottom: 6px;
+	float: left;
+	padding: 20px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.detail .container .detailleft .xiangxitu div:first-child img{
+	border: 0;
+}
+.detail .container .detailleft .buying{
+	width: 385px;
+	height: 450px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.detail .container .detailleft h1{
+	/*width: 380px;*/
+	height: 50px;
+	font-size: 16px;
+}
+.detail .container .detailleft .buying p{
+	color: #96999D;
+	font-size: 14px;
+}
+.detail .container .detailleft .buying .star{
+	/*border: 1px solid black;*/
+	height: 18px;
+	overflow: hidden;
+	margin: 5px 0;
+	/*width: 100px;*/
+}
+.detail .container .detailleft .buying .star img{
+	width: 20px;
+}
+.detail .container .detailleft .buying .price{
+	width: 120px;
+	height: 110px;
+	float: left;
+}
+.detail .container .detailleft .buying .price p{
+	color: #96999D;
+	font-size: 12px;
+	margin: 5px 0;
+}
+.detail .container .detailleft .buying .price p:nth-child(3){
+	color: red;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.detail .container .detailleft .buying .price span{
+	background: #00A0DC;
+	color: #FDFEFE;
+	padding: 8px 20px;
+}
+.detail .container .detailleft .buying .pin{
+	width: 260px;
+	float: left;
+}
+.detail .container .detailleft .buying .pin p{
+	font-size: 10px;
+	margin: 5px 0;
+}
+.detail .container .detailleft .buying .pin p img{
+	width: 10px;
+	height: 10px;
+}
+.detail .container .detailleft .buying .pin input{
+	border-radius: 3px;
+	border: 1px solid #96999D;
+	height: 28px;
+	padding-left: 5px;
+}
+.detail .container .detailleft .buying .pin input:last-child{
+	width: 60px;
+	margin-left: 5px;
+	background: #fff;
+}
+.detail .container .detailleft .buying ul{
+	list-style: disc;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.detail .container .detailleft .buying ul li{
+	margin: 5px 0;
+	color: #96999D;
+	font-size: 12px;
+}
+.detail .container .detailleft .buying ul li a{
+	text-decoration: underline;
+	color: #96999D;
+}
+.detail .container .detailleft h2{
+	/*width: 100;*/
+	background: #F3F3F3;
+	/*height: 50px;*/
+	padding: 10px 0;
+	margin: 20px 0;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.detail .container .detailleft .detailsummery ul{
+	list-style: disc;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.detail .container .detailleft .detailsummery ul li{
+	margin: 5px 0;
+	color: #96999D;
+	font-size: 12px;
+}
+.detail .container .detailleft .detailsummery h1{
+	margin-top: 20px;
+	padding-top: 16px;
+	border-top: 1px solid #96999D;
+}
+.detail .container .detailleft .detailsummery table{
+	margin-bottom: 30px;
+	width: 100%
+}
+.detail .container .detailleft .detailsummery table tr:first-child{
+	background: #EEEEEE;
+	font-weight: bold;
+}
+.detail .container .detailleft .detailsummery table tr:first-child td{
+	color: black;
+}
+.detail .container .detailleft .detailsummery table tr td{
+	border:  1px solid #96999D;
+	width: 50%;
+	height: 33px;
+	padding-left: 5px;
+	color: #A3A3A3;
+}
+.detailleft .detailsummery .relatedproducts h1{
+	text-align: center;
+	color: #00A0DC;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 40px 0;
+}
+.detailleft .detailsummery .relatedproducts .arrivals{
+	position: relative;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toleft,.detailleft .detailsummery .relatedproducts .arrivals .toright{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	overflow: hidden;
+	top: 130px;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toright{
+	left: 990px;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toleft img,.detailleft .detailsummery .relatedproducts .arrivals .toright img{
+	position: relative;
+	max-width: 200%;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toright img{
+	left: -50px;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div{
+	width: 25%;
+	float: left;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div a img{
+	max-width: 100%;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div p{
+	text-align: center;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div p:nth-child(2),.detailleft .detailsummery .relatedproducts .arrivals div s{
+	color:#CACED1;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div p:nth-child(3){
+	font-weight:bold;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div p:nth-child(4){
+	color:#7AE0EA;
+}
+.detail .container .detailleft h4 span{
+	color: white;
+	background: #00A0DC;
+	padding: 2px 8px;
+	margin-right: 8px;
+}
+.detail .container .detailleft>div{
+	width: 100%;
+	/*border-top: 1px solid #F5F5F5;*/
+	padding: 10px 0 5px 0;
+}
+.detail .container .detailleft .categories ul li{
+	background: #F9F9F9;
+	color: #8D9BA7;
+	margin: 6px 0;
+	padding: 7px 7px 7px 10px;
+}
+.detail .container .detailleft .categories ul li img{
+	float: right;
+	position: relative;
+	left: -2px;
+	top: 3px;
+}
+.detail .container .detailleft .discounts h4{
+	margin-bottom: 10px;
+}
+.detail .container .detailleft .discounts form span{
+	display: inline-block;
+	color: #595658;
+	padding: 6px;
+}
+
+.detail .container .detailleft .type form,.detail .container .detailleft .brand form{
+	height: 140px;
+	margin-top: 10px;
+	overflow-y: scroll;
+	scrollbar-face-color:#D5D5D8;
+	/*-moz-scrollbar-face-color:#D5D5D8;*/
+}
+.detail .container .detailleft .type form span,.detail .container .detailleft .brand form span{
+	display: inline-block;
+	color: #595658;
+	padding: 5px;
+}
+.detail .container .detailright{
+	width: 73%;
+	float: left;
+	margin-left: 41px;
+}
+.detail .container .detailright>div{
+	width: 30%;
+	float: left;
+	margin-right: 25px;
+}
+.detail .container .detailright>div:first-child{
+	margin-top: 100px;
+}
+.detail .container .detailright>div img{
+	/*width: 166px;*/
+	/*float: left;*/
+	/*margin: 0 30px;*/
+	/*text-align: center;*/
+	display: block;
+	margin: 0 auto;
+}
+.detail .container .detailright>div p{
+	color: #D4D6CF;
+	margin: 5px 0;
+}
+.detail .container .detailright>div p:nth-child(2){
+	font-size: 20px;
+}
+.detail .container .detailright>div p:nth-child(3){
+	font-size: 15px;
+}
+.detail .container .detailright>div p:nth-child(4){
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+}
+.detail .container .detailright>div input:nth-child(5){
+	width:170px;
+	height: 25px;
+	margin: 5px 0;
+	padding-left: 5px;
+	/*border-style: inset;*/
+	border: 1px solid #D4D6CF;
+	border-top: 2px solid #D4D6CF;
+}
+.detail .container .detailright>div input:last-child{
+	width: 100px;
+	height: 36px;
+	border: 0;
+	background: #00A0DC;
+	color: white;
+	margin-top: 5px;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.detailleft .detailsummery .relatedproducts .arrivals{
+	position: relative;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toleft,.detailleft .detailsummery .relatedproducts .arrivals .toright{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	overflow: hidden;
+	top: 85px;
+	left: -40px;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toright{
+	left: 720px;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toleft img,.detailleft .detailsummery .relatedproducts .arrivals .toright img{
+	position: relative;
+	max-width: 200%;
+}
+.detailleft .detailsummery .relatedproducts .arrivals .toright img{
+	left: -50px;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div p:nth-child(2),.detailleft .detailsummery .relatedproducts .arrivals div s{
+	color:#CACED1;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div p:nth-child(3){
+	font-weight:bold;
+}
+.detailleft .detailsummery .relatedproducts .arrivals div p:nth-child(4){
+	color:#7AE0EA;
+}
+.detail .container .detailright{
+	width: 22%;
+	float: left;
+}
+.detail .container .detailright h4{
+	color: #00A0DC;
+	font-size: 16px;
+}
+.detail .container .detailright h4 span{
+	color: white;
+	background: #00A0DC;
+	padding: 2px 8px;
+	margin-right: 8px;
+}
+.detail .container .detailright>div{
+	width: 100%;
+	border-top: 1px solid #F5F5F5;
+	padding: 10px 0 5px 0;
+}
+.detail .container .detailright .categories ul li{
+	background: #F9F9F9;
+	color: #8D9BA7;
+	margin: 6px 0;
+	padding: 7px 7px 7px 10px;
+}
+.detail .container .detailright .categories ul li img{
+	float: right;
+	position: relative;
+	left: -2px;
+	top: 3px;
+}
+.detail .container .detailright .discounts h4{
+	margin-bottom: 10px;
+}
+.detail .container .detailright .discounts form span{
+	display: inline-block;
+	color: #595658;
+	padding: 6px;
+}
+.detail .container .detailright .price p{
+	color: #2C343C;
+	font-weight: bold;
+	margin: 10px auto;
+}
+.detail .container .detailright .type form,.detail .container .detailright .brand form{
+	height: 140px;
+	margin-top: 10px;
+	overflow-y: scroll;
+	scrollbar-face-color:#D5D5D8;
+	/*-moz-scrollbar-face-color:#D5D5D8;*/
+}
+.detail .container .detailright .type form span,.detail .container .detailright .brand form span{
+	display: inline-block;
+	color: #595658;
+	padding: 5px;
+}

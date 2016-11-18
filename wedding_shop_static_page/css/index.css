@@ -1,0 +1,112 @@
+.banner{
+	width: 100%;
+	height: 656px;
+}
+.main{
+	width: 100%;
+	height: 2030px;
+}
+.main .container .part1{
+	width: 100%;
+	height: 782px;
+}
+.main .container .part1 h1{
+	float: left;
+	width: 240px;
+	margin: 60px 60px 60px 0;
+}
+.main .container h1{
+	font-size: 42px;
+	color: #00A0DC;
+	margin: 30px auto;
+	text-align: center;
+	font-family: JosefinSans-Bold;
+}
+.main .container h4{
+	float: left;
+	margin: 60px 0 15px 0;
+	font-size: 20px;
+	font-family: JosefinSans-Bold;
+}
+.main .container .part1>p{
+	float: left;
+	width: 750px;
+	line-height: 20px;
+	color: #A6A8B7;
+	font-size: 12px;
+}
+.main .container .part1 div{
+	float: left;
+}
+.main .container .dresses div{
+	width: 31%;
+}
+.main .container .dresses div:nth-child(2){
+	margin:0 3.5%;
+}
+.main .container .dresses div img,.main .container .part3 .arrivals div img{
+	max-width: 100%;
+}
+.main .container .dresses p{
+	line-height: 77px;
+	color: #343434;
+	font-family: JosefinSans-Bold;
+	font-size: 26px;
+}
+.main .container .products>div,.main .container .part3 .arrivals>div{
+	width: 25%;
+	float: left;
+}
+.main .container .part2 img{
+	margin-left: 49px;
+}
+/*.main .container .part2 a{
+	width: 0;
+	height: 0;
+}*/
+.main .container .part2 p,.main .container .part3 p{
+	padding: 5px 0;
+	text-align: center;
+	/*color:#CACED1;*/
+}
+.main .container .part2 .products div{
+	margin: 10px 0 30px 0;
+}
+.main .container .part2 .products div p:nth-child(2),.main .container .part2 .products div s{
+	color:#CACED1;
+}
+.main .container .part2 .products div p:nth-child(3){
+	font-weight:bold;
+}
+.main .container .part2 .products div p:nth-child(4){
+	color:#7AE0EA;
+}
+.main .container .part3 .arrivals{
+	position: relative;
+}
+.main .container .part3 .arrivals .toleft,.main .container .part3 .arrivals .toright{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	overflow: hidden;
+	top: 130px;
+}
+.main .container .part3 .arrivals .toright{
+	left: 990px;
+}
+.main .container .part3 .arrivals .toleft img,.main .container .part3 .arrivals .toright img{
+	position: relative;
+	max-width: 200%;
+}
+.main .container .part3 .arrivals .toright img{
+	left: -50px;
+}
+.main .container .part3 .arrivals div p:nth-child(2),.main .container .part3 .arrivals div s{
+	color:#CACED1;
+}
+.main .container .part3 .arrivals div p:nth-child(3){
+	font-weight:bold;
+}
+.main .container .part3 .arrivals div p:nth-child(4){
+	color:#7AE0EA;
+}

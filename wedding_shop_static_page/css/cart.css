@@ -1,0 +1,135 @@
+.cart{
+	height: 770px;
+}
+.cart .container>p{
+	width: 100%;
+	height: 30px;
+	background: #F5F5F5;
+	padding: 10px 0 0 15px;
+	border-radius: 6px;
+	color: #A6A4A3;
+	font-weight: bold;
+}
+.cart .container>p a{
+	color: black;
+	font-weight: bold;
+}
+.cart .container h2{
+	margin: 50px 0 20px 0;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 22px;
+}
+.cart .container .cartleft{
+	width: 70%;
+	float: left;
+	margin-left: 22px;
+}
+.cart .container .cartleft table tr:last-child td{
+	border-top:1px solid #FF7872;
+	border-bottom:1px solid #FF7872;
+}
+.cart .container .cartleft table tr{
+	height: 150px;
+	background: #F8F8F8;
+}
+.cart .container .cartleft table tr td{
+	vertical-align: top;
+	text-align: right;
+	padding-top: 50px;
+}
+.cart .container .cartleft table tr:first-child{
+	background: #000;
+	color: white;
+	height: 50px;
+}
+.cart .container .cartleft table tr:first-child td{
+	text-align: left;
+	vertical-align:center;
+	padding: 0 10px;
+	line-height: 50px;
+	font-size: 16px;
+}
+.cart .container .cartleft table tr td:first-child img{
+	/*position: relative;
+	top: -40px;*/
+	/*margin-top: -40px;*/
+}
+.cart .container .cartleft table tr td:last-child{
+	padding: 0;
+}
+.cart .container .cartleft table tr td span{
+	color: #DBF2FA;
+	background: #00A0DC;
+	padding: 5px;
+}
+.cart .container .cartright{
+	width: 26%;
+	float: left;
+	height: 550px;
+	margin-left: 15px;
+}
+.cart .container .cartright table tr{
+	height: 20px;
+}
+
+.cart .container .cartright table tr td{
+	height: 23px;
+}
+.cart .container .cartright table tr:first-child td{
+	text-align: center;
+	font-weight: bold;
+	height: 100px;
+}
+.cart .container .cartright table tr:first-child td span{
+	background: #00A0DC;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+.cart .container .cartright table tr:nth-child(2){
+	/*font-weight: bold;*/
+	height: 50px;
+}
+.cart .container .cartright table tr:nth-child(5) td{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #464646;
+}
+.cart .container .cartright table tr:nth-child(6) td{
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+.cart .container .cartright table tr:nth-child(7) td{
+	text-align: center;
+	font-weight: bold;
+	height: 90px;
+}
+.cart .container .cartright table tr:nth-child(7) td span{
+	background: #333333;
+	color: white;
+	padding: 12px 65px;
+	border-radius: 6px;
+}
+.cart .container .cartright table tr:nth-child(9) td{
+	color: #8E8E8E;
+	font-weight: bold;
+	height: 40px;
+	font-size: 12px;
+}
+.cart .container .cartright table tr:nth-child(9) td:last-child{
+	text-align: center;
+}
+.cart .container .cartright table tr:nth-child(9) td span{
+	background: #8E8E8E;
+	color: #FBF7DD;
+	padding: 10px;
+	border-radius: 6px;
+}
+.cart .container .cartright table tr:nth-child(10) td{
+	color: #737374;
+	/*font-weight: bold;*/
+	/*height: 40px;*/
+	font-size: 14px;
+}

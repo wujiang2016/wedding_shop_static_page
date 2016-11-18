@@ -1,0 +1,74 @@
+.contactus{
+	height: 700px;
+}
+.contactus .container>p{
+	width: 100%;
+	height: 30px;
+	background: #F5F5F5;
+	padding: 10px 0 0 15px;
+	border-radius: 6px;
+	color: #A6A4A3;
+	font-weight: bold;
+}
+.contactus .container>p a{
+	color: black;
+	font-weight: bold;
+}
+.contactus .container>h1{
+	margin: 50px 0 10px 0;
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+}
+.contactus .container .contactleft{
+	width: 22%;
+	float: left;
+	margin-right: 80px;
+}
+.contactus .container .contactleft h4{
+	color: #00A0DC;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.contactus .container div div{
+	width: 100%;
+	height: 240px;
+}
+.contactus .container .contactleft>p{
+	color: #A5B2BA;
+	font-size: 12px;
+}
+.contactus .container .contactleft pre{
+	color: #706D6D;
+	line-height: 22px;
+	font-size: 16px;
+}
+.contactus .container .contactleft pre a{
+	color: black;
+}
+.contactus .container .contactright{
+	width: 65%;
+	float: left;
+	margin-left: 41px;
+}
+.contactus .container .contactright form{
+	margin-top: 20px;
+}
+.contactus .container .contactright form input{
+	width: 100%;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.contactus .container .contactright form input:nth-child(8){
+	height: 100px;
+}
+.contactus .container .contactright form input:last-child{
+	width: 110px;
+	height: 45px;
+	border: 0;
+	background: #00A0DC;
+	color: white;
+	padding: 5px auto;
+	font-size: 16px;
+}

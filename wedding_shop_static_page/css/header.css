@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix{
+	clear: both;
+}
+.container{
+	width: 1056px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	background: #00A0DC;
+	font-family:JosefinSans-Bold;
+	position: fixed;
+	z-index: 999;
+	margin-top: 0;
+}
+.header .container ul:first-child{
+	float: left;
+	margin-top: 20px;
+}
+.header .container ul:last-child{
+	float: right;
+	margin-top: 20px;
+}
+.header .container ul li{
+	border-right: 1px solid white;
+	float: left;
+	padding: 0 6px;
+}
+.header .container ul li:last-child{
+	border-right: 0;
+}
+.header .container ul li a{
+	color: white;
+	font-size:14px; 
+}
+.nav{
+	height: 115px;
+	/*position: absolute;*/
+	padding-top: 60px;
+}
+.nav .container p{
+	float: left;
+	font-size: 40px;
+	margin: 30px 0;
+	font-weight: bold;
+	font-family:JosefinSans-Bold;
+}
+.nav .container>ul{
+	float: right;
+	margin-top: 28px;
+	width: 750px;
+}
+.nav .container>ul>li{
+	float: left;
+	padding: 22px;
+}
+.nav .container ul li .active{
+	color: #00A0DC;
+}
+.nav .container ul li a{
+	color: #DFD8CE;
+	font-size: 16px;
+	font-weight: bold;
+	font-family:JosefinSans-Bold;
+}
+/*.nav .container ul li ul li a{
+	color: #DFD8CE;
+}*/
+.nav .container ul li a img{
+	max-height: 20px;
+}
+.nav .container ul li p{
+	width: 0;
+	height: 0;
+}
+.nav .container>ul>li:last-child{
+	padding: 15px 0 0 60px;
+}
+.nav .container>ul>li:last-child>a{
+	color: #716F6F;
+}
+.nav .container ul li a:hover{
+	color: #00A0DC;
+}
+.friendlink{
+	width: 100%;
+	height: 150px;
+	background: #EEEEEE;
+}
+.friendlink .container div{
+	float: left;
+	width: 33%;
+	text-align: center;
+
+	margin-top: 42.5px;
+	border-right: 1px solid #B7B7B7;
+	/*margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin: auto;*/
+}
+.friendlink .container div a{
+	color: black;
+	font-weight: bold;
+	font-size: 26px;
+
+}
+.friendlink .container div p{
+	color: #E89B5B;
+	font-size: 22px;
+	
+}
+.friendlink .container div p:first-child{
+	margin-bottom: 10px;
+}
+.friendlink .container div:last-child{
+	border-right: 0;
+}
+.footer{
+	width: 100%;
+	height: 280px;
+	/*background: #EEEEEE;*/
+}
+.footer .container div{
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.footer .container div h4{
+	font-size: 22px;
+	color: #646464;
+	border-bottom: 1px solid #E7E7E7;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+.footer .container div p{
+	font-size: 18px;
+	
+	margin: 5px auto;
+}
+.footer .container div p a{
+	color: #868E95;
+}
+.footer .container div:nth-child(4) p:before{
+	content: "> ";
+	color: #868E95;
+}
+.footer .container .category p:last-child:before{
+	content: "…";
+	color: #868E95;
+}
+.footer .container>p{
+	color: #999999;
+}
+.footer .container>p>a{
+	color: #AFBCB9;
+}
