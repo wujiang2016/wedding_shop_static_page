@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clockEdge{
+	width: 400px;
+	height: 400px;
+
+	border: 10px solid yellow;
+	border-radius: 400px;
+
+	margin: 100px auto;
+
+	position: relative;
+}
+.littlercd{
+	width: 380px;
+	height: 2px;
+	position: absolute;
+	top: 199px;
+	left: 10px;
+}
+.littlercd span{
+	width: 10px;
+	height: 2px;
+	background: black;
+}
+.littlercd span:first-child{
+	float: left;
+}
+.littlercd span:last-child{
+	float: right;
+}
+
+.bigrcd{
+	width: 380px;
+	height: 4px;
+	position: absolute;
+	top: 198px;
+	left: 10px;
+}
+.bigrcd span{
+	width: 20px;
+	height: 4px;
+	background: black;
+}
+.bigrcd span:first-child{
+	float: left;
+}
+.bigrcd span:last-child{
+	float: right;
+}
+
+.number{
+	width: 330px;
+	height: 30px;
+	position: absolute;
+	top: 185px;
+	left: 35px;
+}
+.number span{
+	width: auto;
+	height: auto;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	color: green;
+	font-weight: bold;
+}
+
+
+.hour,.minute,.second{
+	position: absolute;
+}
+.hour{
+	width: 130px;
+	height: 6px;
+	background: black;
+	transform-origin:100px 3px;
+	top: 197px;
+	left: 100px;
+}
+.minute{
+	width: 180px;
+	height: 5px;
+	background: blue;
+	transform-origin:140px 2.5px;
+	top: 197.5px;
+	left: 60px;
+}
+.second{
+	width: 230px;
+	height: 4px;
+	background: red;
+	transform-origin:180px 2px;
+	top: 198px;
+	left: 20px;
+}
